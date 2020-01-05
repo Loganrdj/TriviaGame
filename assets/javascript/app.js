@@ -1,22 +1,25 @@
 var correctAnswers = 0;
 var incorrectAnswers = 0;
-var timeLeft = 60;
+var timeLeft = 10;
 
 
 $(document).ready(function() {
     
-    setInterval(function(){
+    var timer = setInterval(function(){
         timeLeft -= 1;
         // console.log(timeLeft);
         $("#timer").text("Time Remaining: " + timeLeft);
         if(timeLeft == 0){
-            // alert("Submit form here");
+            alert("Times Up!")
+            $("#submitbutton").click()
 
         }
     },1000);    
 
     $("#submitbutton").on("click", function(event){
         event.preventDefault();
+
+        clearInterval(timer);
 
         let questionOne = $("input[name='question1']:checked").val();
         let questionTwo = $("input[name='question2']:checked").val();
