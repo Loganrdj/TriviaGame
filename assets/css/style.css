@@ -1,0 +1,18 @@
+body{
+    background-image: url('https://freerangestock.com/sample/53012/blue-shapes-background-means-rectangles-oblongs-and-arrows-.jpg');
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    display: block;
+}
+.col{
+    /* background-color: gray; */
+    text-align: center;
+    /* color: white; */
+}
+#submitbutton{
+    
+}
+
+.resultbox{
+    background-color: white;
+}
