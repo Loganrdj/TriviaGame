@@ -8,7 +8,7 @@ $(document).ready(function() {
     var timer = setInterval(function(){
         timeLeft -= 1;
         // console.log(timeLeft);
-        $("#timer").text("Time Remaining: " + timeLeft);
+        $("#timer").html("<b>Time Remaining: " + timeLeft + "</b>");
         if(timeLeft == 0){
             alert("Times Up!")
             $("#submitbutton").click()
