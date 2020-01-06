@@ -33,7 +33,6 @@ $(document).ready(function() {
                 correctAnswers++;
             }
         }
-        alert(correctAnswers);
         $("#resultDiv").empty();
         $("section").empty();
         $("#resultDiv").html("<div class='row'><div class='col'>Congratulations! You got: <b>" + correctAnswers + "</b> correct answers and <b>" + incorrectAnswers + "</b> incorrect answers.</div></div>")
