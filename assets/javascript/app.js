@@ -1,6 +1,6 @@
 var correctAnswers = 0;
 var incorrectAnswers = 0;
-var timeLeft = 10;
+var timeLeft = 60;
 
 
 $(document).ready(function() {
@@ -12,7 +12,6 @@ $(document).ready(function() {
         if(timeLeft == 0){
             alert("Times Up!")
             $("#submitbutton").click()
-
         }
     },1000);    
 

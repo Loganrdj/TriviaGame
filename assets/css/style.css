@@ -10,9 +10,13 @@ body{
     /* color: white; */
 }
 #submitbutton{
-    
+    /* display: block; */
+    position: static;
+    margin-left: 47.5%;
+    margin-right: 50%;
 }
 
 .resultbox{
     background-color: white;
 }
+
