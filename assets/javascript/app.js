@@ -1,5 +1,5 @@
 var correctAnswers = 0;
-var incorrectAnswers = 0;
+var incorrectAnswers = 6 - correctAnswers;
 var timeLeft = 50;
 
 
