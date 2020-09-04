@@ -1,7 +1,9 @@
 # TriviaGame
 ![](/TriviaGame.gif)
 
-## Technologies Used
+## https://loganrdj.github.io/TriviaGame/
+
+### Technologies Used
 - jQuery
 - JavaScript
 - HTML
@@ -10,4 +12,3 @@
 
 This was designed to be a quick and simple quiz for a fun activity.
 
-### https://loganrdj.github.io/TriviaGame/
